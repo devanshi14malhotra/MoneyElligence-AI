@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./moneyelligence-backend
+    container_name: moneyelligence_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    restart: always
+
+  frontend:
+    build: ./moneyelligence-frontend
+    container_name: moneyelligence_frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: always

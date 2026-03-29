@@ -1,0 +1,26 @@
+# Virtual Environments and Python Caches
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node Modules
+node_modules/
+dist/
+.vite/
+.env
+
+# Hackathon Original Setup Files (Do not upload)
+00_VISUAL_SUMMARY_START_HERE.md
+03_ET_MONEY_MENTOR_PRD.md
+04_TECHNICAL_IMPLEMENTATION_GUIDE.md
+05_EXECUTION_PLAYBOOK_CHECKLIST.md
+MoneyElligence_Dev_Quick_Start.md
+README_MASTER_SUMMARY.md
+QUICK_START_CHECKLIST.txt
+NotebookLM_Pitch_Source.md
+How_MoneyElligence_Works.md
+
+# OS Files
+.DS_Store
+Thumbs.db
