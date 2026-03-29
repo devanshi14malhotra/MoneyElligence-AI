@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150/02050b/38bdf8?text=ME" width="100"/>
+  <!-- <img src="https://via.placeholder.com/150/02050b/38bdf8?text=ME" width="100"/> -->
   <h1>Money<span style="color:#38bdf8">Elligence</span></h1>
   <p><strong>Strict mathematical structural advice. Zero financial literacy required.</strong></p>
-  <p>Built for the ET Gen-AI Hackathon 2026</p>
+  <!-- <p>Built for the ET Gen-AI Hackathon 2026</p> -->
 </div>
 
 <hr/>
@@ -35,12 +35,12 @@ No confusing jargon. Just exact, geometric progression to optimize Indian wealth
 
 ## ⚙️ Quick Start Guide (Local Execution)
 
-### Option 1: The Docker Way (Recommended for Judges)
-We have containerized the entire ecosystem. Ensure Docker Desktop is running.
+### Option 1: The Docker Way
+Entire ecosystem is containerised.
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/moneyelligence
-cd moneyelligence
+git clone https://github.com/devanshi14malhotra/MoneyElligence-AI
+cd MoneyElligence-AI
 
 # Supply your Gemini Key if testing the live API (Optional: fallback engine runs natively)
 export GEMINI_API_KEY="your_api_key_here"
@@ -70,10 +70,8 @@ npm run dev
 
 ---
 
-## 🎥 Hackathon Demo Notes
-If you are judging this repository:
+## 🎥 Demo
 1. Hit "Launch Terminal" from the frontend.
 2. Click **Load "Priya" (Age 38)** on the left console to inject a rapid demo persona.
 3. Click Proceed and select "Compute Matrix." The entire 6-score dimensional map and AI prescription will render instantaneously. 
 
-We built it to be visually breathtaking and mathematically infallible. 
